@@ -1,0 +1,18 @@
+SNEHA
+
+Used visual studio
+Developed Slot Machine
+Uses money to cut life
+has UI
+
+VENKATESH
+
+Used Python
+2 players
+grid based tic tac toe
+cmd prigram with ascii UI
+
+Kishan
+
+Unity Roll a Ball game
+Gather objects to get points before timer runs out.
