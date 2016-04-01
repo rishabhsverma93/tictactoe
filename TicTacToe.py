@@ -45,14 +45,14 @@ def checkwin():
                 if [P1,P2,P3] in wins:
                     pygame.time.delay(1000)
                     pygame.quit()
-                    print "         YOU WON!        "
+                    print "         YOU WON! THE GALAXY IS SAFE AGAIN!! YAY!! :)        "
     for AI1 in AIs:
         for AI2 in AIs:
             for AI3 in AIs:
                 if [AI1,AI2,AI3] in wins:
                     pygame.time.delay(1000)
                     pygame.quit()
-                    print "         YOU LOST!        "
+                    print "         YOU LOST! THE GALAXY IS NO MORE!! :(       "
                     print "   WORSE LUCK NEXT TIME!"
     full = 1
     for tester1 in board:
@@ -62,7 +62,7 @@ def checkwin():
     if full == 1:
         pygame.time.delay(1000)
         pygame.quit()
-        print "         YOU TIED!        "
+        print "         YOU TIED! THE BATTLE MAY BE WON BUT THE WAR IS NOT YET OVER!! :P        "
         
                         
         
@@ -119,7 +119,7 @@ def moveAI():
 
 pygame.display.flip()
 pygame.time.delay(500)
-if raw_input("would you like to go first? (y/n)") == 'n':
+if raw_input("Would you like to defend the galaxy from evil federation warlords!! (do you want to go first :P)? (y/n)") == 'n':
     moveAI()                                
 while True:
     mousepos = pygame.mouse.get_pos()
