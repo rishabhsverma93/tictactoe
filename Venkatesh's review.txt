@@ -1,0 +1,13 @@
+TIC TAC TOE
+
+Grid Based tic tac toe
+
+using python command line
+
+grid based entry appraoch
+
+tested it twice - won once and draw once
+
+code didn't have any issues
+
+UI was okay
